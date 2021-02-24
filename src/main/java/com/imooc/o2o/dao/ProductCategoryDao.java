@@ -20,4 +20,12 @@ public interface ProductCategoryDao {
      * @return
      */
     int batchInsertProductCategory(List<ProductCategory> productCategoryList);
+
+    /**
+     * 删除商品类别
+     * @param productCategoryId
+     * @param shopId
+     * @return
+     */
+    int deleteProductCategory(@Param("productCategoryId") long productCategoryId, @Param("shopId") long shopId);
 }
