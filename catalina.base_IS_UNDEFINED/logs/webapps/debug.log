@@ -1,3 +1,30 @@
-2020-02-20 01:59:19.629 [main] DEBUG c.i.o.d.P.batchInsertProductCategory - ==>  Preparing: INSERT INTO tb_product_category(product_category_name,priority,create_time,shop_id) VALUES ( ?, ?, ?, ? ) , ( ?, ?, ?, ? ) 
-2020-02-20 01:59:19.713 [main] DEBUG c.i.o.d.P.batchInsertProductCategory - ==> Parameters: 面包(String), 1(Integer), 2020-02-20 01:59:18.42(Timestamp), 1(Long), 油(String), 2(Integer), 2020-02-20 01:59:18.42(Timestamp), 1(Long)
-2020-02-20 01:59:19.739 [main] DEBUG c.i.o.d.P.batchInsertProductCategory - <==    Updates: 2
+2021-03-07 18:11:10.116 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\1\2021030718111077090.jpg
+2021-03-07 18:11:10.119 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is:E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\1\2021030718111077090.jpg
+2021-03-07 18:11:12.257 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr,normal_price,promotion_price,priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) VALUES (?,?,?,?,?,?,?,?,?,?,?); 
+2021-03-07 18:11:12.312 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==> Parameters: 测试商品1(String), 测试商品1(String), upload\item\shop\1\2021030718111077090.jpg(String), null, null, 20(Integer), 2021-03-07 18:11:10.115(Timestamp), 2021-03-07 18:11:10.115(Timestamp), 1(Integer), 1(Long), 1(Long)
+2021-03-07 18:11:12.341 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2021-03-07 18:11:12.357 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\4\2021030718111262590.jpg
+2021-03-07 18:11:12.357 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is :E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\4\2021030718111262590.jpg
+2021-03-07 18:11:12.526 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\4\2021030718111297930.jpg
+2021-03-07 18:11:12.527 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is :E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\4\2021030718111297930.jpg
+2021-03-07 18:15:12.388 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\1\2021030718151263058.jpg
+2021-03-07 18:15:12.388 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is:E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\1\2021030718151263058.jpg
+2021-03-07 18:15:13.207 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr,normal_price,promotion_price,priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) VALUES (?,?,?,?,?,?,?,?,?,?,?); 
+2021-03-07 18:15:13.245 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==> Parameters: 测试商品1(String), 测试商品1(String), upload\item\shop\1\2021030718151263058.jpg(String), null, null, 20(Integer), 2021-03-07 18:15:12.386(Timestamp), 2021-03-07 18:15:12.386(Timestamp), 1(Integer), 1(Long), 1(Long)
+2021-03-07 18:15:13.262 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2021-03-07 18:15:13.275 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\5\2021030718151319054.jpg
+2021-03-07 18:15:13.275 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is :E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\5\2021030718151319054.jpg
+2021-03-07 18:15:13.380 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\5\2021030718151390498.jpg
+2021-03-07 18:15:13.380 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is :E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\5\2021030718151390498.jpg
+2021-03-07 18:16:36.865 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is:upload\item\shop\1\2021030718163653424.jpg
+2021-03-07 18:16:36.866 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is:E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\1\2021030718163653424.jpg
+2021-03-07 18:16:37.689 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==>  Preparing: INSERT INTO tb_product(product_name,product_desc,img_addr,normal_price,promotion_price,priority,create_time,last_edit_time,enable_status,product_category_id,shop_id) VALUES (?,?,?,?,?,?,?,?,?,?,?); 
+2021-03-07 18:16:37.732 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - ==> Parameters: 测试商品1(String), 测试商品1(String), upload\item\shop\1\2021030718163653424.jpg(String), null, null, 20(Integer), 2021-03-07 18:16:36.864(Timestamp), 2021-03-07 18:16:36.864(Timestamp), 1(Integer), 1(Long), 1(Long)
+2021-03-07 18:16:37.744 [main] DEBUG com.imooc.o2o.dao.ProductDao.insertProduct - <==    Updates: 1
+2021-03-07 18:16:37.757 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\6\2021030718163738244.jpg
+2021-03-07 18:16:37.758 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is :E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\6\2021030718163738244.jpg
+2021-03-07 18:16:37.832 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\item\shop\6\2021030718163779724.jpg
+2021-03-07 18:16:37.832 [main] DEBUG com.imooc.o2o.util.ImageUtil - current completeAddr is :E:\IdeaProjects\njtkidMaven\src\main\webapp\resources\statics\images\upload\item\shop\6\2021030718163779724.jpg
+2021-03-07 18:16:37.917 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg - ==>  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority,create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2021-03-07 18:16:37.918 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg - ==> Parameters: upload\item\shop\6\2021030718163738244.jpg(String), null, null, 2021-03-07 18:16:37.832(Timestamp), 6(Long), upload\item\shop\6\2021030718163779724.jpg(String), null, null, 2021-03-07 18:16:37.883(Timestamp), 6(Long)
+2021-03-07 18:16:37.944 [main] DEBUG c.i.o2o.dao.ProductImgDao.batchInsertProductImg - <==    Updates: 2
