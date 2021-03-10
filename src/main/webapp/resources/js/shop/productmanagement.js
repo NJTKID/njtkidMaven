@@ -66,16 +66,13 @@ $(function () {
         var target = $(e.currentTarget);
         if (target.hasClass('edit')) {
             // 如果有class edit则点击就进入店铺信息编辑页面，并带有productId参数
-            window.location.href = '/njtkidMaven/shopadmin/productoperation?productId='
-                + e.currentTarget.dataset.id;
+            window.location.href = '/njtkidMaven/shopadmin/productoperation?productId=' + e.currentTarget.dataset.id;
         } else if (target.hasClass('status')) {
             // 如果有class status则调用后台功能上/下架相关商品，并带有productId参数
-            changeItemStatus(e.currentTarget.dataset.id,
-                e.currentTarget.dataset.status);
+            changeItemStatus(e.currentTarget.dataset.id,e.currentTarget.dataset.status);
         } else if (target.hasClass('preview')) {
             // 如果有class preview则去前台展示系统该商品详情页预览商品情况
-            window.location.href = '/o2o/frontend/productdetail?productId='
-                + e.currentTarget.dataset.id;
+            window.location.href = '/o2o/frontend/productdetail?productId=' + e.currentTarget.dataset.id;
         }
     });
 

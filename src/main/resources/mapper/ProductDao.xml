@@ -102,7 +102,7 @@
         WHERE product_id = #{productId}
         AND shop_id=#{shop.shopId}
     </update>
-    <resultMap id="productMap" type="com.imooc.o2o.dao.ProductDao">
+    <resultMap id="productMap" type="com.imooc.o2o.entity.Product">
         <id column="product_id" property="productId" />
         <result column="product_name" property="productName" />
         <result column="product_desc" property="productDesc" />
@@ -132,7 +132,7 @@
             <result column="product_id" property="productId" />
         </collection>
     </resultMap>
-    <select id="queryProductById" resultMap="productMap" parameterType="Long">
+    <select id="queryByProductId" resultMap="productMap" parameterType="Long">
         SELECT
 		p.product_id,
 		p.product_name,

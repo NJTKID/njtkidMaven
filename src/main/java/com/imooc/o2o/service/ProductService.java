@@ -44,5 +44,5 @@ public interface ProductService {
      * @return
      * @throws ProductOperationException
      */
-    //ProductExecution modifyProduct(Product product,ImageHolder thumbnail,List<ImageHolder> productImgHolderList) throws ProductOperationException;
+    ProductExecution modifyProduct(Product product,ImageHolder thumbnail,List<ImageHolder> productImgHolderList) throws ProductOperationException;
 }
